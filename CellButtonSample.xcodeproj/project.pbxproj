@@ -13,15 +13,18 @@
 		75EA8D11185B3FA000ED06A2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 75EA8D0F185B3FA000ED06A2 /* InfoPlist.strings */; };
 		75EA8D13185B3FA000ED06A2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 75EA8D12185B3FA000ED06A2 /* main.m */; };
 		75EA8D17185B3FA000ED06A2 /* CBSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 75EA8D16185B3FA000ED06A2 /* CBSAppDelegate.m */; };
-		75EA8D1A185B3FA000ED06A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75EA8D18185B3FA000ED06A2 /* Main.storyboard */; };
-		75EA8D1D185B3FA000ED06A2 /* CBSMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75EA8D1C185B3FA000ED06A2 /* CBSMasterViewController.m */; };
-		75EA8D20185B3FA000ED06A2 /* CBSDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75EA8D1F185B3FA000ED06A2 /* CBSDetailViewController.m */; };
 		75EA8D22185B3FA000ED06A2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75EA8D21185B3FA000ED06A2 /* Images.xcassets */; };
 		75EA8D29185B3FA000ED06A2 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75EA8D28185B3FA000ED06A2 /* XCTest.framework */; };
 		75EA8D2A185B3FA000ED06A2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75EA8D06185B3FA000ED06A2 /* Foundation.framework */; };
 		75EA8D2B185B3FA000ED06A2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75EA8D0A185B3FA000ED06A2 /* UIKit.framework */; };
 		75EA8D33185B3FA000ED06A2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 75EA8D31185B3FA000ED06A2 /* InfoPlist.strings */; };
 		75EA8D35185B3FA000ED06A2 /* CellButtonSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 75EA8D34185B3FA000ED06A2 /* CellButtonSampleTests.m */; };
+		75EA8D46185B410C00ED06A2 /* CBSMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75EA8D45185B410C00ED06A2 /* CBSMenuViewController.m */; };
+		75EA8D49185B44A000ED06A2 /* CBSTargetActionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75EA8D48185B44A000ED06A2 /* CBSTargetActionViewController.m */; };
+		75EA8D4D185B466400ED06A2 /* CBSDelegateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75EA8D4C185B466400ED06A2 /* CBSDelegateViewController.m */; };
+		75EA8D51185B469400ED06A2 /* CBSResponderChainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75EA8D50185B469400ED06A2 /* CBSResponderChainViewController.m */; };
+		75EA8D54185B483A00ED06A2 /* CBSTargetActionButtonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 75EA8D53185B483A00ED06A2 /* CBSTargetActionButtonCell.m */; };
+		75EA8D59185B4AB800ED06A2 /* CBSDelegateButtonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 75EA8D58185B4AB800ED06A2 /* CBSDelegateButtonCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,17 +48,24 @@
 		75EA8D14185B3FA000ED06A2 /* CellButtonSample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CellButtonSample-Prefix.pch"; sourceTree = "<group>"; };
 		75EA8D15185B3FA000ED06A2 /* CBSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CBSAppDelegate.h; sourceTree = "<group>"; };
 		75EA8D16185B3FA000ED06A2 /* CBSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CBSAppDelegate.m; sourceTree = "<group>"; };
-		75EA8D19185B3FA000ED06A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		75EA8D1B185B3FA000ED06A2 /* CBSMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CBSMasterViewController.h; sourceTree = "<group>"; };
-		75EA8D1C185B3FA000ED06A2 /* CBSMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CBSMasterViewController.m; sourceTree = "<group>"; };
-		75EA8D1E185B3FA000ED06A2 /* CBSDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CBSDetailViewController.h; sourceTree = "<group>"; };
-		75EA8D1F185B3FA000ED06A2 /* CBSDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CBSDetailViewController.m; sourceTree = "<group>"; };
 		75EA8D21185B3FA000ED06A2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		75EA8D27185B3FA000ED06A2 /* CellButtonSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CellButtonSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		75EA8D28185B3FA000ED06A2 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		75EA8D30185B3FA000ED06A2 /* CellButtonSampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CellButtonSampleTests-Info.plist"; sourceTree = "<group>"; };
 		75EA8D32185B3FA000ED06A2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		75EA8D34185B3FA000ED06A2 /* CellButtonSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CellButtonSampleTests.m; sourceTree = "<group>"; };
+		75EA8D44185B410C00ED06A2 /* CBSMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CBSMenuViewController.h; path = Classes/CBSMenuViewController.h; sourceTree = "<group>"; };
+		75EA8D45185B410C00ED06A2 /* CBSMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CBSMenuViewController.m; path = Classes/CBSMenuViewController.m; sourceTree = "<group>"; };
+		75EA8D47185B44A000ED06A2 /* CBSTargetActionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CBSTargetActionViewController.h; path = Classes/CBSTargetActionViewController.h; sourceTree = "<group>"; };
+		75EA8D48185B44A000ED06A2 /* CBSTargetActionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CBSTargetActionViewController.m; path = Classes/CBSTargetActionViewController.m; sourceTree = "<group>"; };
+		75EA8D4B185B466400ED06A2 /* CBSDelegateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CBSDelegateViewController.h; path = Classes/CBSDelegateViewController.h; sourceTree = "<group>"; };
+		75EA8D4C185B466400ED06A2 /* CBSDelegateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CBSDelegateViewController.m; path = Classes/CBSDelegateViewController.m; sourceTree = "<group>"; };
+		75EA8D4F185B469400ED06A2 /* CBSResponderChainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CBSResponderChainViewController.h; path = Classes/CBSResponderChainViewController.h; sourceTree = "<group>"; };
+		75EA8D50185B469400ED06A2 /* CBSResponderChainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CBSResponderChainViewController.m; path = Classes/CBSResponderChainViewController.m; sourceTree = "<group>"; };
+		75EA8D52185B483A00ED06A2 /* CBSTargetActionButtonCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CBSTargetActionButtonCell.h; path = Classes/CBSTargetActionButtonCell.h; sourceTree = "<group>"; };
+		75EA8D53185B483A00ED06A2 /* CBSTargetActionButtonCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CBSTargetActionButtonCell.m; path = Classes/CBSTargetActionButtonCell.m; sourceTree = "<group>"; };
+		75EA8D57185B4AB800ED06A2 /* CBSDelegateButtonCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CBSDelegateButtonCell.h; path = Classes/CBSDelegateButtonCell.h; sourceTree = "<group>"; };
+		75EA8D58185B4AB800ED06A2 /* CBSDelegateButtonCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CBSDelegateButtonCell.m; path = Classes/CBSDelegateButtonCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,13 +125,9 @@
 		75EA8D0C185B3FA000ED06A2 /* CellButtonSample */ = {
 			isa = PBXGroup;
 			children = (
+				75EA8D3E185B40C300ED06A2 /* View Controllers */,
 				75EA8D15185B3FA000ED06A2 /* CBSAppDelegate.h */,
 				75EA8D16185B3FA000ED06A2 /* CBSAppDelegate.m */,
-				75EA8D18185B3FA000ED06A2 /* Main.storyboard */,
-				75EA8D1B185B3FA000ED06A2 /* CBSMasterViewController.h */,
-				75EA8D1C185B3FA000ED06A2 /* CBSMasterViewController.m */,
-				75EA8D1E185B3FA000ED06A2 /* CBSDetailViewController.h */,
-				75EA8D1F185B3FA000ED06A2 /* CBSDetailViewController.m */,
 				75EA8D21185B3FA000ED06A2 /* Images.xcassets */,
 				75EA8D0D185B3FA000ED06A2 /* Supporting Files */,
 			);
@@ -155,6 +161,73 @@
 				75EA8D31185B3FA000ED06A2 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		75EA8D3E185B40C300ED06A2 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				75EA8D43185B410000ED06A2 /* MenuViewCon */,
+				75EA8D42185B40F800ED06A2 /* TargetActionViewCon */,
+				75EA8D4A185B464300ED06A2 /* DelegateViewCon */,
+				75EA8D4E185B468100ED06A2 /* ResponderChain */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		75EA8D42185B40F800ED06A2 /* TargetActionViewCon */ = {
+			isa = PBXGroup;
+			children = (
+				75EA8D55185B484200ED06A2 /* TargetActionButtonCell */,
+				75EA8D47185B44A000ED06A2 /* CBSTargetActionViewController.h */,
+				75EA8D48185B44A000ED06A2 /* CBSTargetActionViewController.m */,
+			);
+			name = TargetActionViewCon;
+			sourceTree = "<group>";
+		};
+		75EA8D43185B410000ED06A2 /* MenuViewCon */ = {
+			isa = PBXGroup;
+			children = (
+				75EA8D44185B410C00ED06A2 /* CBSMenuViewController.h */,
+				75EA8D45185B410C00ED06A2 /* CBSMenuViewController.m */,
+			);
+			name = MenuViewCon;
+			sourceTree = "<group>";
+		};
+		75EA8D4A185B464300ED06A2 /* DelegateViewCon */ = {
+			isa = PBXGroup;
+			children = (
+				75EA8D56185B4A9100ED06A2 /* DelegateButtonCell */,
+				75EA8D4B185B466400ED06A2 /* CBSDelegateViewController.h */,
+				75EA8D4C185B466400ED06A2 /* CBSDelegateViewController.m */,
+			);
+			name = DelegateViewCon;
+			sourceTree = "<group>";
+		};
+		75EA8D4E185B468100ED06A2 /* ResponderChain */ = {
+			isa = PBXGroup;
+			children = (
+				75EA8D4F185B469400ED06A2 /* CBSResponderChainViewController.h */,
+				75EA8D50185B469400ED06A2 /* CBSResponderChainViewController.m */,
+			);
+			name = ResponderChain;
+			sourceTree = "<group>";
+		};
+		75EA8D55185B484200ED06A2 /* TargetActionButtonCell */ = {
+			isa = PBXGroup;
+			children = (
+				75EA8D52185B483A00ED06A2 /* CBSTargetActionButtonCell.h */,
+				75EA8D53185B483A00ED06A2 /* CBSTargetActionButtonCell.m */,
+			);
+			name = TargetActionButtonCell;
+			sourceTree = "<group>";
+		};
+		75EA8D56185B4A9100ED06A2 /* DelegateButtonCell */ = {
+			isa = PBXGroup;
+			children = (
+				75EA8D57185B4AB800ED06A2 /* CBSDelegateButtonCell.h */,
+				75EA8D58185B4AB800ED06A2 /* CBSDelegateButtonCell.m */,
+			);
+			name = DelegateButtonCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,7 +309,6 @@
 			files = (
 				75EA8D22185B3FA000ED06A2 /* Images.xcassets in Resources */,
 				75EA8D11185B3FA000ED06A2 /* InfoPlist.strings in Resources */,
-				75EA8D1A185B3FA000ED06A2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,10 +327,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75EA8D54185B483A00ED06A2 /* CBSTargetActionButtonCell.m in Sources */,
+				75EA8D59185B4AB800ED06A2 /* CBSDelegateButtonCell.m in Sources */,
+				75EA8D51185B469400ED06A2 /* CBSResponderChainViewController.m in Sources */,
+				75EA8D49185B44A000ED06A2 /* CBSTargetActionViewController.m in Sources */,
+				75EA8D4D185B466400ED06A2 /* CBSDelegateViewController.m in Sources */,
 				75EA8D13185B3FA000ED06A2 /* main.m in Sources */,
 				75EA8D17185B3FA000ED06A2 /* CBSAppDelegate.m in Sources */,
-				75EA8D20185B3FA000ED06A2 /* CBSDetailViewController.m in Sources */,
-				75EA8D1D185B3FA000ED06A2 /* CBSMasterViewController.m in Sources */,
+				75EA8D46185B410C00ED06A2 /* CBSMenuViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,14 +363,6 @@
 				75EA8D10185B3FA000ED06A2 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		75EA8D18185B3FA000ED06A2 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				75EA8D19185B3FA000ED06A2 /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		75EA8D31185B3FA000ED06A2 /* InfoPlist.strings */ = {
