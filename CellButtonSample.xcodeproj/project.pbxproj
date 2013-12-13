@@ -10,10 +10,8 @@
 		75EA8D07185B3FA000ED06A2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75EA8D06185B3FA000ED06A2 /* Foundation.framework */; };
 		75EA8D09185B3FA000ED06A2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75EA8D08185B3FA000ED06A2 /* CoreGraphics.framework */; };
 		75EA8D0B185B3FA000ED06A2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75EA8D0A185B3FA000ED06A2 /* UIKit.framework */; };
-		75EA8D11185B3FA000ED06A2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 75EA8D0F185B3FA000ED06A2 /* InfoPlist.strings */; };
 		75EA8D13185B3FA000ED06A2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 75EA8D12185B3FA000ED06A2 /* main.m */; };
 		75EA8D17185B3FA000ED06A2 /* CBSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 75EA8D16185B3FA000ED06A2 /* CBSAppDelegate.m */; };
-		75EA8D22185B3FA000ED06A2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75EA8D21185B3FA000ED06A2 /* Images.xcassets */; };
 		75EA8D29185B3FA000ED06A2 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75EA8D28185B3FA000ED06A2 /* XCTest.framework */; };
 		75EA8D2A185B3FA000ED06A2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75EA8D06185B3FA000ED06A2 /* Foundation.framework */; };
 		75EA8D2B185B3FA000ED06A2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75EA8D0A185B3FA000ED06A2 /* UIKit.framework */; };
@@ -44,12 +42,10 @@
 		75EA8D08185B3FA000ED06A2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		75EA8D0A185B3FA000ED06A2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		75EA8D0E185B3FA000ED06A2 /* CellButtonSample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CellButtonSample-Info.plist"; sourceTree = "<group>"; };
-		75EA8D10185B3FA000ED06A2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		75EA8D12185B3FA000ED06A2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		75EA8D14185B3FA000ED06A2 /* CellButtonSample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CellButtonSample-Prefix.pch"; sourceTree = "<group>"; };
 		75EA8D15185B3FA000ED06A2 /* CBSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CBSAppDelegate.h; sourceTree = "<group>"; };
 		75EA8D16185B3FA000ED06A2 /* CBSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CBSAppDelegate.m; sourceTree = "<group>"; };
-		75EA8D21185B3FA000ED06A2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		75EA8D27185B3FA000ED06A2 /* CellButtonSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CellButtonSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		75EA8D28185B3FA000ED06A2 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		75EA8D30185B3FA000ED06A2 /* CellButtonSampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CellButtonSampleTests-Info.plist"; sourceTree = "<group>"; };
@@ -131,7 +127,6 @@
 				75EA8D3E185B40C300ED06A2 /* View Controllers */,
 				75EA8D15185B3FA000ED06A2 /* CBSAppDelegate.h */,
 				75EA8D16185B3FA000ED06A2 /* CBSAppDelegate.m */,
-				75EA8D21185B3FA000ED06A2 /* Images.xcassets */,
 				75EA8D0D185B3FA000ED06A2 /* Supporting Files */,
 			);
 			path = CellButtonSample;
@@ -141,7 +136,6 @@
 			isa = PBXGroup;
 			children = (
 				75EA8D0E185B3FA000ED06A2 /* CellButtonSample-Info.plist */,
-				75EA8D0F185B3FA000ED06A2 /* InfoPlist.strings */,
 				75EA8D12185B3FA000ED06A2 /* main.m */,
 				75EA8D14185B3FA000ED06A2 /* CellButtonSample-Prefix.pch */,
 			);
@@ -320,8 +314,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				75EA8D22185B3FA000ED06A2 /* Images.xcassets in Resources */,
-				75EA8D11185B3FA000ED06A2 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -371,14 +363,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		75EA8D0F185B3FA000ED06A2 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				75EA8D10185B3FA000ED06A2 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
 		75EA8D31185B3FA000ED06A2 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
