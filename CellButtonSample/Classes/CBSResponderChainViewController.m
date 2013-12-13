@@ -4,6 +4,7 @@
 //
 
 #import "CBSResponderChainViewController.h"
+#import "CBSResponderChainButtonCell.h"
 
 @interface CBSResponderChainViewController ()
 
@@ -31,6 +32,13 @@
   // self.navigationItem.rightBarButtonItem = self.editButtonItem;
 }
 
+- (void)viewDidAppear:(BOOL)animated
+{
+  [super viewDidAppear:animated];
+  
+  [self becomeFirstResponder];
+}
+
 - (void)didReceiveMemoryWarning
 {
   [super didReceiveMemoryWarning];
@@ -42,23 +50,38 @@
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
   // Return the number of sections.
-  return 0;
+  return 1;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
   // Return the number of rows in the section.
-  return 0;
+  return 30;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
   static NSString *CellIdentifier = @"Cell";
-  UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
-  
-  // Configure the cell...
-  
+  CBSResponderChainButtonCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+  if (!cell) {
+    cell = [[CBSResponderChainButtonCell alloc] init];
+    [cell setSelectionStyle:UITableViewCellSelectionStyleNone];
+    [cell.button setTitle:@"Push!!" forState:UIControlStateNormal];
+    [cell layoutSubviews];
+  }
+  [cell.textLabel setText:[NSString stringWithFormat:@"Cell %d", indexPath.row]];
   return cell;
+}
+
+#pragma mark - Responder chain
+
+- (void)pushButton:(id)sender
+{
+  NSIndexPath *indexPath = [self.tableView indexPathForCell:sender];
+  
+  NSString *message = [NSString stringWithFormat:@"Tapped at index%d.", indexPath.row];
+  [[[UIAlertView alloc] initWithTitle:nil message:message delegate:nil cancelButtonTitle:@"OK"
+                    otherButtonTitles:nil] show];
 }
 
 @end

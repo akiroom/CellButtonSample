@@ -25,6 +25,7 @@
 		75EA8D51185B469400ED06A2 /* CBSResponderChainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75EA8D50185B469400ED06A2 /* CBSResponderChainViewController.m */; };
 		75EA8D54185B483A00ED06A2 /* CBSTargetActionButtonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 75EA8D53185B483A00ED06A2 /* CBSTargetActionButtonCell.m */; };
 		75EA8D59185B4AB800ED06A2 /* CBSDelegateButtonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 75EA8D58185B4AB800ED06A2 /* CBSDelegateButtonCell.m */; };
+		75EA8D60185B503400ED06A2 /* CBSResponderChainButtonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 75EA8D5F185B503400ED06A2 /* CBSResponderChainButtonCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +67,8 @@
 		75EA8D53185B483A00ED06A2 /* CBSTargetActionButtonCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CBSTargetActionButtonCell.m; path = Classes/CBSTargetActionButtonCell.m; sourceTree = "<group>"; };
 		75EA8D57185B4AB800ED06A2 /* CBSDelegateButtonCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CBSDelegateButtonCell.h; path = Classes/CBSDelegateButtonCell.h; sourceTree = "<group>"; };
 		75EA8D58185B4AB800ED06A2 /* CBSDelegateButtonCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CBSDelegateButtonCell.m; path = Classes/CBSDelegateButtonCell.m; sourceTree = "<group>"; };
+		75EA8D5E185B503400ED06A2 /* CBSResponderChainButtonCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CBSResponderChainButtonCell.h; path = Classes/CBSResponderChainButtonCell.h; sourceTree = "<group>"; };
+		75EA8D5F185B503400ED06A2 /* CBSResponderChainButtonCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CBSResponderChainButtonCell.m; path = Classes/CBSResponderChainButtonCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -206,6 +209,7 @@
 		75EA8D4E185B468100ED06A2 /* ResponderChain */ = {
 			isa = PBXGroup;
 			children = (
+				75EA8D5A185B4FD700ED06A2 /* ResponderChainButtonCell */,
 				75EA8D4F185B469400ED06A2 /* CBSResponderChainViewController.h */,
 				75EA8D50185B469400ED06A2 /* CBSResponderChainViewController.m */,
 			);
@@ -228,6 +232,15 @@
 				75EA8D58185B4AB800ED06A2 /* CBSDelegateButtonCell.m */,
 			);
 			name = DelegateButtonCell;
+			sourceTree = "<group>";
+		};
+		75EA8D5A185B4FD700ED06A2 /* ResponderChainButtonCell */ = {
+			isa = PBXGroup;
+			children = (
+				75EA8D5E185B503400ED06A2 /* CBSResponderChainButtonCell.h */,
+				75EA8D5F185B503400ED06A2 /* CBSResponderChainButtonCell.m */,
+			);
+			name = ResponderChainButtonCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -331,6 +344,7 @@
 				75EA8D59185B4AB800ED06A2 /* CBSDelegateButtonCell.m in Sources */,
 				75EA8D51185B469400ED06A2 /* CBSResponderChainViewController.m in Sources */,
 				75EA8D49185B44A000ED06A2 /* CBSTargetActionViewController.m in Sources */,
+				75EA8D60185B503400ED06A2 /* CBSResponderChainButtonCell.m in Sources */,
 				75EA8D4D185B466400ED06A2 /* CBSDelegateViewController.m in Sources */,
 				75EA8D13185B3FA000ED06A2 /* main.m in Sources */,
 				75EA8D17185B3FA000ED06A2 /* CBSAppDelegate.m in Sources */,

@@ -42,14 +42,12 @@
   CBSDelegateButtonCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
   if (!cell) {
     cell = [[CBSDelegateButtonCell alloc] init];
+    [cell setSelectionStyle:UITableViewCellSelectionStyleNone];
     [cell.button setTitle:@"Push!!" forState:UIControlStateNormal];
     [cell layoutSubviews];
-    [cell setSelectionStyle:UITableViewCellSelectionStyleNone];
     [cell setDelegate:self];
   }
   [cell.textLabel setText:[NSString stringWithFormat:@"Cell %d", indexPath.row]];
-  return cell;
-  
   return cell;
 }
 
